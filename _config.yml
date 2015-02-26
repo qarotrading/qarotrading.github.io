@@ -31,16 +31,16 @@ social:
     share_title: ?text=
     share_link: "&amp;url="
 
-#  - icon:	facebook
-#    url:	https://facebook.com/???
-#    desc: Connect with me facebook
-#    share_url: //www.facebook.com/sharer.php
-#    share_title: ?t=
-#    share_link: "&amp;u="
+  - icon:	facebook
+    url:	https://facebook.com/yamahakawazaki
+    desc: Connect with me facebook
+    share_url: //www.facebook.com/sharer.php
+    share_title: ?t=
+    share_link: "&amp;u="
 
-  - icon:	github
-    url:	https://github.com/qarotrading
-    desc:	Fork me on github
+  - icon:	envelope
+    url:	mailto:info@qarotrading.com
+    desc:	Send us an email
     share_url:
     share_title:
     share_link:
