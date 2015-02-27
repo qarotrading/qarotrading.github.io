@@ -9,9 +9,10 @@ description: > # this means to ignore newlines until "email:"
 
 email: yahya@qoratrading.com
 #blog logo
-logo: "/assets/images/df_logo.jpg"
+logo: "/assets/images/greenQ2.png"
+# df_logo.jpg"
 # blog cover
-cover: "/assets/images/morocco5.jpg"
+cover: "/assets/images/morocco6.jpg"
 
 name: 'Yahya Lazrak'
 author: 'Yahya Lazrak'
