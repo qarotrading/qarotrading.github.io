@@ -251,6 +251,28 @@ body {
       color: #999; }
       .blog-header .custom-links a:hover {
         color: #333; }
+    .blog-header .custom-links .outer {
+      width: 13px;
+      display: inline;
+      overflow: hidden;
+      transition: width 0.5s; }
+      .blog-header .custom-links .outer:hover {
+        width: 131px; }
+      .blog-header .custom-links .outer .inner {
+        width: 13px;
+        display: inline;
+        position: absolute; }
+        .blog-header .custom-links .outer .inner:hover {
+          opacity: 0; }
+      .blog-header .custom-links .outer .sub {
+        width: 131px;
+        display: inline;
+        position: absolute;
+        opacity: 0;
+        transition: opacity 0.5s;
+        z-index: -1; }
+        .blog-header .custom-links .outer .sub:hover {
+          opacity: 1; }
 
 .content {
   width: 100%;

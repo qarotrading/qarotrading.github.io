@@ -127,6 +127,29 @@ body
       color: #999
       &:hover
         color: #333
+    .outer
+      width: 13px
+      display: inline
+      overflow: hidden
+      transition: width .5s
+      &:hover
+        width: 131px
+      .inner
+        width: 13px
+        display: inline
+        position: absolute
+        &:hover
+          opacity: 0
+      .sub
+        width: 131px
+        display: inline
+        position: absolute
+        opacity: 0
+        transition: opacity .5s  /* change opacity over a period of 500ms */
+        z-index: -1
+        &:hover
+          opacity: 1
+        
 
 .content
   width: 100%

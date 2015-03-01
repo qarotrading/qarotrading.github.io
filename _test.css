@@ -1,0 +1,26 @@
+.outer {
+    position:relative;
+    overflow:hidden;
+    display: inline;
+    transition: width .5s;  /* change width over a period of 500ms */
+}
+
+.inner {
+    position:absolute; 
+    background-color:#9b3d3d;
+}
+
+.sub {
+    position:absolute;
+    opacity:0;
+    background-color:#3a6d90;    
+    transition: opacity .5s;  /* change opacity over a period of 500ms */
+    z-index:-1;
+}
+#outer:hover {
+    width:200px; /* expand outer div on hover , exposing the 'sub' div */
+}
+
+#outer:hover #sub {
+    opacity:1;  /* change opacity to 1 so 'sub' div becomes visible */
+}

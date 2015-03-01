@@ -15,15 +15,22 @@ layout: default
     <h1 class="blog-title">{{ site.title }}</h1>
     <h2 class="blog-description">{{ site.description }}</h2>
     <div class="custom-links">
-      &nbsp;&nbsp;·&nbsp;&nbsp;
       {% for social in site.social %}
         {% if social.url %}
             <a class="icon-{{ social.icon }}" href="{{ social.url }}">
-              <i class="fa fa-{{ social.icon }}"></i>
-            </a>
-            &nbsp;&nbsp;·&nbsp;&nbsp;
+              <i class="fa fa-{{ social.icon }}"></i></a>
+              &nbsp;&nbsp;·&nbsp;&nbsp;
         {% endif %}
       {% endfor %}
+        <div class='outer'>
+            <div class='inner'>
+            <a class="icon-phone" href="tel:+1-405-412-2673">
+              <i class="fa fa-phone"></i></a>
+            </div>
+            <div class='sub'>
+            <a href="tel:+1-405-412-2673">+1 (405) 412-2673</a>
+            </div>
+        </div>
     </div>
 </header>
 

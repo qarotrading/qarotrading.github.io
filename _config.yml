@@ -14,8 +14,8 @@ logo: "/assets/images/greenQ2.png"
 # blog cover
 cover: "/assets/images/morocco6.jpg"
 
-name: 'Yahya Lazrak'
-author: 'Yahya Lazrak'
+name: 'Qaro Trading'
+author: 'Qaro Trading'
 author_image: "/assets/images/author.jpg"
 
 paginate:	5
@@ -27,28 +27,28 @@ baseurl: ""
 social:
   - icon:	twitter
     url:	https://twitter.com/qarotrading
-    desc: Follow me on twitter
+    desc: Follow us on twitter
     share_url: http://twitter.com/share
     share_title: ?text=
     share_link: "&amp;url="
 
   - icon:	facebook
     url:	https://facebook.com/yamahakawazaki
-    desc: Connect with me facebook
+    desc: Connect with us on facebook
     share_url: //www.facebook.com/sharer.php
     share_title: ?t=
     share_link: "&amp;u="
 
   - icon:	envelope
     url:	mailto:info@qarotrading.com
-    desc:	Send us an email
+    desc:	Send an email
     share_url:
     share_title:
     share_link:
 
-#  - icon:	google-plus
-#    url:	https://google.com/???
-#    desc:	Add me on google+
-#    share_url:
-#    share_title:
-#    share_link:
+  #- icon:	phone
+  #  url:	tel://+14054122673
+  #  desc:	+1 (405) 412-2673
+  #  share_url:
+  #  share_title:
+  #  share_link:
